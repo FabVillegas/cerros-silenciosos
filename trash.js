@@ -21,7 +21,7 @@ function startOtherworld() {
     document.getElementById('otherworldSound').play();
     showText("#phrase", getPhrase(), 0, 500);
     const maxMins = 4;
-    const minMins = 2;
+    const minMins = 3;
     const timerUntilTrigger = Math.floor(Math.random() * (maxMins - minMins + 1) + minMins);
     const triggerInterval = setInterval(() => {
         const min = 1;
@@ -31,7 +31,7 @@ function startOtherworld() {
     }, timerUntilTrigger * 60 * 1000);
     setTimeout(() => {
         clearInterval(triggerInterval);
-    }, 300000);
+    }, 900000);
 }
 
 const phrases = [
@@ -50,7 +50,7 @@ function getPhrase() {
 function queueMusic() {
     setTimeout(() => {
         document.getElementById('musicSound').play();
-    }, 300000);
+    }, 900000);
 }
 
 function startAmbience() {
