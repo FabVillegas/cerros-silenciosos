@@ -20,13 +20,15 @@ function sirenAlarm() {
 function startOtherworld() {
     document.getElementById('otherworldSound').play();
     showText("#phrase", getPhrase(), 0, 500);
-    const timerUntilTrigger = Math.floor(Math.random() * (60 - 50) + 50);
+    const maxMins = 4;
+    const minMins = 2;
+    const timerUntilTrigger = Math.floor(Math.random() * (maxMins - minMins + 1) + minMins);
     const triggerInterval = setInterval(() => {
         const min = 1;
         const max = 6;
         const selectedTrigger = Math.floor(Math.random() * (max - min + 1) + min);
         document.getElementById('triggerSound' + selectedTrigger).play();
-    }, timerUntilTrigger * 1000);
+    }, timerUntilTrigger * 60 * 1000);
     setTimeout(() => {
         clearInterval(triggerInterval);
     }, 300000);
