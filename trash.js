@@ -20,8 +20,8 @@ function sirenAlarm() {
 function startOtherworld() {
     document.getElementById('otherworldSound').play();
     showText("#phrase", getPhrase(), 0, 500);
-    const maxMins = 4;
-    const minMins = 3;
+    const maxMins = 3;
+    const minMins = 2;
     const timerUntilTrigger = Math.floor(Math.random() * (maxMins - minMins + 1) + minMins);
     const triggerInterval = setInterval(() => {
         const min = 1;
