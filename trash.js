@@ -35,9 +35,31 @@ function startOtherworld() {
 }
 
 const phrases = [
-    'espero que mi muerte importe mas que mi vida ',
-    'este mundo para mi no tiene ningun sentido ',
-    'se que no pertenezco a este lugar '
+    'hola soy yo otra vez // ',
+    'perdon por molestar // ',
+    'se que no pertenezco a este lugar // ',
+    'soy tan diferente a los demas // ',
+    'este mundo para mi no tiene ningun sentido // ',
+    'espero que mi muerte importe mas que mi vida // ',
+    'y pueda mirar mas alla del sufrimiento // ',
+    'aunque di mas de lo que soy // ',
+    'aparentemente el problema soy siempre yo // ',
+    'siempre he sentido que soy una carga // ',
+    'odio despertar todos los dias // ',
+    'deberia aguantar un dia mas // ',
+    'para que seguir aqui // ',
+    'a nadie le importo ni le importara // ',
+    'no quiero morir pero necesito que el dolor termine // ',
+    'callar las voces de mi cabeza // ',
+    'es cansado pretender que todo esta bien // ',
+    'odio todo lo que soy // ',
+    'nadie me podra amar jamas // ',
+    'la historia se repite una y otra vez // ',
+    'cuando ya no este todo sera igual // ',
+    'al final yo me voy pero ustedes aqui se quedan // ',
+    'esto no lo hice yo lo hicieron ustedes // ',
+    'es hora de desaparecer //',
+    'perdon y adios // '
 ];
 
 function getPhrase() {
